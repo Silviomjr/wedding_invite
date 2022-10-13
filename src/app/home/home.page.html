@@ -11,18 +11,18 @@
     <h6>Local: Chácara Recanto dos Pinheiros</h6>
 
     <div class="container-buttons">
-      <button (click)="confirmNavigation()">
+      <ion-button [href]="this.url" fill="clear">
         <ion-img src="../../assets/images/presenca.png"></ion-img>
-      </button>
-      <button (click)="localizationNavigation()">
+      </ion-button>
+      <ion-button (click)="localizationNavigation()" fill="clear">
         <ion-img src="../../assets/images/localizacao.png"></ion-img>
-      </button>
-      <button>
+      </ion-button>
+      <ion-button fill="clear" (click)="wishListNavigation()">
         <ion-img src="../../assets/images/listaPresente.png"></ion-img>
-      </button>
-      <button>
+      </ion-button>
+      <ion-button fill="clear" (click)="informationsNavigation()">
         <ion-img src="../../assets/images/informacao.png"></ion-img>
-      </button>
+      </ion-button>
     </div>
   </div>
 </ion-content>

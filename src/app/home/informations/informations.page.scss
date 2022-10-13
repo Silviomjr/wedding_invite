@@ -1,11 +1,55 @@
-:host ::ng-deep {
+:host {
   ion-content.background{
-    --background: url(../../../assets/images/background.png) 0 0/100% 100% no-repeat !important;
+    --background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(254, 255, 255, 0.6)), url(../../../assets/images/background.png) 0 0/100% 100% no-repeat !important;
   }
 
   ion-img {
     height: 14rem;
     margin-bottom: 1.5rem;
   }
+  
+  ion-icon {
+    margin: 0 5px;
+  }
+}
 
+.header {
+  margin: 4rem 2% 1rem 2%;
+  height: 2rem;
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+.content {
+  margin: 0 5%;
+  color: rgba(177, 170, 157, 1);
+
+  ion-icon {
+    font-size: 1.3rem;
+  }
+}
+
+.informations {
+  background-color: rgb(255, 254, 252);
+  padding: 1rem;
+}
+
+#background {
+  display: flex;
+  flex-direction: column;
+}
+
+h6 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+a {
+  background-color: transparent;  
+  text-decoration: none;
+  color: rgba(177, 170, 157, 1);
+  line-height: 1.5rem;
+  border-bottom: rgba(177, 170, 157, 1) 1px solid;
 }

@@ -1,11 +1,76 @@
 :host ::ng-deep {
+  ion-content {
+    position: relative;
+  }
   ion-content.background{
-    --background: url(../../../assets/images/background.png) 0 0/100% 100% no-repeat !important;
+    --background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(254, 255, 255, 0.6)), url(../../../assets/images/background.png) 0 0/100% 100% no-repeat !important;
   }
 
   ion-img {
-    height: 14rem;
-    margin-bottom: 1.5rem;
+    height: 12rem;
+    max-width: 80%;
+    max-height: 12rem;
+    margin: 0 auto 1.5rem auto;
   }
 
+  ion-icon {
+    color: rgb(135, 146, 134) !important;
+    margin-right: 1rem;
+  }
+
+  ion-buttons {
+    ion-button {
+      line-height: 1.25rem;
+      display: flex;
+      text-align: center;
+      vertical-align: middle;
+      
+      p {
+        line-height: 1.25rem;
+      }
+    }
+  }
+}
+.header {
+  margin: 4rem 2% 1rem 2%;
+  height: 2rem;
+}
+
+.sub-header {
+  margin: 0 5% 1rem 5%;
+  height: fit-content;
+  text-align: center;
+  font-size: 1.25rem;
+  color: rgba(177, 170, 157, 1);
+  filter: brightness(65%);
+}
+
+.body {
+  padding: 0 5% 4rem 5%;
+  display: block;
+  overflow: scroll;
+  height: 75%;
+  background-color: rgb(255, 254, 252);
+  color: rgb(177, 170, 157);
+}
+
+.body-pix {
+  margin: 0 5% 0 5%;
+  color: rgba(177, 170, 157, 1);
+  filter: brightness(65%);
+}
+
+.arrow-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#background {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  max-height: 10rem;
 }

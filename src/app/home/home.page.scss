@@ -1,11 +1,14 @@
 :host ::ng-deep {
   ion-content.background{
-    --background: url(../../assets/images/background.png) 0 0/100% 100% no-repeat !important;
+    --background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(254, 255, 255, 0.6)), url(../../assets/images/background.png) 0 0/100% 100% no-repeat !important;
   }
 
   ion-img {
     height: 14rem;
     margin-bottom: 1.5rem;
   }
-
+  
+  ion-button {
+    height: fit-content;
+  }
 }

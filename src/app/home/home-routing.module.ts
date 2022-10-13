@@ -16,11 +16,11 @@ const routes: Routes = [
   },
   {
     path: 'wish-list',
-    component: InformationsPage,
+    component: WishListPage,
   },
   {
-    path: 'informations',
-    component: WishListPage,
+    path: 'infos',
+    component: InformationsPage,
   },
 ];
 

@@ -1,5 +1,14 @@
 <ion-content class="background" [fullscreen]="true">
-  <div #container>
+  <div id="containerLocalization" class="container-margins">
+    <div class="localization-information-message-title">
+      Venha prestigiar nosso casamento.
+    </div>
+
+    <div class="localization-information-message">
+      R. Dr. Leocádio José Corrêa, 1 - Roseira
+    </div>
+    <div class="localization-information-message">Colombo - PR</div>
+
     <div class="mapouter">
       <div class="gmap_canvas">
         <iframe
@@ -31,5 +40,12 @@
         </style>
       </div>
     </div>
+
+    <ion-buttons slot="start" class="arrow-back">
+      <ion-button slot="start" fill="clear" size="large" (click)="stepBack()">
+        <ion-icon src="../../../assets/icon/arrow-left.svg"></ion-icon>
+        <p>voltar</p>
+      </ion-button>
+    </ion-buttons>
   </div>
 </ion-content>

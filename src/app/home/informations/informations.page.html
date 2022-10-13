@@ -1,3 +1,63 @@
 <ion-content class="background" [fullscreen]="true">
-  <div id="container"></div>
+  <div class="content">
+    <div class="header">
+      <ion-buttons slot="start">
+        <ion-button slot="start" fill="clear" size="large" (click)="stepBack()">
+          <ion-icon src="../../../assets/icon/arrow-left.svg"></ion-icon>
+          <p>voltar</p>
+        </ion-button>
+      </ion-buttons>
+    </div>
+
+    <div class="informations">
+      <div>
+        <h6>Horário da festa:</h6>
+        <p>14h às 21h30</p>
+      </div>
+
+      <div>
+        <h6>Traje</h6>
+        <p>Esporte Fino</p>
+      </div>
+
+      <div>
+        <h6>Bebidas disponíveis:</h6>
+        <p>Gin, Chopp Pilsen, Água, Refri e Suco</p>
+        <p>Obs: Rôlha Libre uhul o/</p>
+      </div>
+
+      <div>
+        <h6>Não esquecer:</h6>
+        <p>Repelente e Protetor Solar</p>
+      </div>
+
+      <div>
+        <h6>Ação social dos véios:</h6>
+        <p>
+          Queremos também ajudar o próximo - estaremos arrecadando 1kg de
+          alimentos não perecíveis para doação a uma instituição de caridade
+        </p>
+      </div>
+
+      <h6>Contatos:</h6>
+      <div *ngFor="let contact of contactData">
+        <p>
+          {{contact.person}}:
+
+          <ion-button
+            fill="clear"
+            [href]="callPhone(contact.countryCode, contact.ddd, contact.whatsappNumber)"
+          >
+            <ion-icon src="../../../assets/icon/telephone.svg"></ion-icon>
+          </ion-button>
+          <ion-button
+            fill="clear"
+            [href]="callWhatsapp(contact.countryCode, contact.ddd, contact.whatsappNumber)"
+          >
+            <ion-icon src="../../../assets/icon/whatsapp.svg"></ion-icon>
+          </ion-button>
+        </p>
+      </div>
+    </div>
+  </div>
 </ion-content>

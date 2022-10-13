@@ -1,0 +1,122 @@
+{
+  "data": [
+    {
+      "description": "Café em paris.",
+      "place": "paris",
+      "value": 200,
+      "image": "../../../assets/images/paris-cafe.jpg"
+    },
+    {
+      "description": "Visita ao museu do Louvre.",
+      "place": "paris",
+      "value": 170,
+      "image": "../../../assets/images/paris-louvre.jpg"
+    },
+    {
+      "description": "City Tour em Paris - 1 dia.",
+      "place": "paris",
+      "value": 210,
+      "image": "../../../assets/images/paris-citytour.jpg"
+    },
+    {
+      "description": "Almoço no Sena - Bateau-Mouche.",
+      "place": "paris",
+      "value": 375,
+      "image": "../../../assets/images/paris-bateaumouche.jpg"
+    },
+    {
+      "description": "Visita ao museu do Van Gogh.",
+      "place": "amsterdã",
+      "value": 200,
+      "image": "../../../assets/images/amsterda-vangogh.jpg"
+    },
+    {
+      "description": "Heineken Experience.",
+      "place": "amsterdã",
+      "value": 210,
+      "image": "../../../assets/images/amsterda-heineken.jpg"
+    },
+    {
+      "description": "City Card Amsterda.",
+      "place": "amsterdã",
+      "value": 325,
+      "image": "../../../assets/images/amsterda-citycard.jpg"
+    },
+    {
+      "description": "Visita ao Atomium.",
+      "place": "bruxelas",
+      "value": 170,
+      "image": "../../../assets/images/bruxelas-atomium.jpg"
+    },
+    {
+      "description": "Passeio em Bruges.",
+      "place": "bruxelas",
+      "value": 480,
+      "image": "../../../assets/images/bruxelas-bruges.jpg"
+    },
+    {
+      "description": "Delirium Bar.",
+      "place": "bruxelas",
+      "value": 250,
+      "image": "../../../assets/images/bruxelas-delirium.jpg"
+    },
+    {
+      "description": "Mini Europe.",
+      "place": "bruxelas",
+      "value": 173,
+      "image": "../../../assets/images/bruxelas-minieurope.jpg"
+    },
+    {
+      "description": "Pargamonmuseum. Das Panorama.",
+      "place": "berlim",
+      "value": 190,
+      "image": "../../../assets/images/berlim-pargamonmuseum.jpg"
+    },
+    {
+      "description": "Tarde em Potsdamer Platz.",
+      "place": "berlim",
+      "value": 350,
+      "image": "../../../assets/images/berlim-postdamer.jpg"
+    },
+    {
+      "description": "Passeio em Dresden.",
+      "place": "berlim",
+      "value": 400,
+      "image": "../../../assets/images/berlim-dresden.jpg"
+    },
+    {
+      "description": "Colosseum, Roman Forum e Palatine.",
+      "place": "roma",
+      "value": 180,
+      "image": "../../../assets/images/roma-coliseu.jpg"
+    },
+    {
+      "description": "Visita guiada Vaticano e Capela Sistina.",
+      "place": "roma",
+      "value": 600,
+      "image": "../../../assets/images/roma-capelasistina.jpg"
+    },
+    {
+      "description": "Passeio pelo centro histórico de Roma - Fontana di Trevi e Pantheon.",
+      "place": "roma",
+      "value": 400,
+      "image": "../../../assets/images/roma-fontanaditrevi.jpg"
+    },
+    {
+      "description": "Castel Sant'Angelo.",
+      "place": "roma",
+      "value": 400,
+      "image": "../../../assets/images/roma-castelsantangelo.jpg"
+    },
+    {
+      "description": "Visita guiada pela Galeria Borghese.",
+      "place": "roma",
+      "value": 485,
+      "image": "../../../assets/images/roma-galeriaborghese.jpg"
+    }
+  ],
+  "pix1": "41 99595-9540",
+  "pix1Name": "Silvio Manenti Junior",
+  "pix2": "41 98505-8597",
+  "pix2Name": "Luciana Kalil Carneiro"
+}

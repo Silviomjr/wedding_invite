@@ -17,10 +17,6 @@ export class HomePage implements OnInit {
     this.router.navigateByUrl('home/localization', { replaceUrl: true });
   }
 
-  confirmNavigation() {
-    this.router.navigateByUrl('home/confirm', { replaceUrl: true });
-  }
-
   wishListNavigation() {
     this.router.navigateByUrl('home/wish-list', { replaceUrl: true });
   }

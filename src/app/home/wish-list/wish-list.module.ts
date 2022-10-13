@@ -1,11 +1,16 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {
+  CUSTOM_ELEMENTS_SCHEMA,
+  NgModule,
+  NO_ERRORS_SCHEMA,
+} from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
-import { WishListPage } from './wish-list.page';
+import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
-  imports: [CommonModule, FormsModule, IonicModule],
-  declarations: [WishListPage],
+  imports: [BrowserModule, FormsModule, IonicModule],
+  // declarations: [WishListPage],
+  // exports: [WishListPage],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA],
 })
 export class WishListPageModule {}

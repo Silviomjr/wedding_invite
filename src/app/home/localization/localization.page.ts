@@ -1,5 +1,5 @@
+import { Router } from '@angular/router';
 import { AfterViewInit, Component } from '@angular/core';
-import * as L from 'leaflet';
 
 @Component({
   selector: 'app-localization',
@@ -7,7 +7,11 @@ import * as L from 'leaflet';
   styleUrls: ['./localization.page.scss'],
 })
 export class LocalizationPage implements AfterViewInit {
-  constructor() {}
+  constructor(private router: Router) {}
 
   ngAfterViewInit(): void {}
+
+  stepBack() {
+    this.router.navigateByUrl('/home', { replaceUrl: true });
+  }
 }

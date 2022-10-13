@@ -1,3 +1,33 @@
-<ion-content class="background" [fullscreen]="true">
-  <div id="container"></div>
+<ion-content class="background" [fullscreen]="true" *ngIf="this.data">
+  <div class="header">
+    <ion-buttons slot="start">
+      <ion-button slot="start" fill="clear" size="large" (click)="stepBack()">
+        <ion-icon src="../../../assets/icon/arrow-left.svg"></ion-icon>
+        <p>voltar</p>
+      </ion-button>
+    </ion-buttons>
+  </div>
+  <div class="sub-header">
+    Se for de coração e puder ajudar os véios a dar um rolêzin na Europa
+    (chiq!).
+  </div>
+  <div class="body-pix">
+    <p>
+      Pix véio: {{this.data.pix1}} <br />
+      {{this.data.pix1Name}}
+    </p>
+    <p>
+      Pix véia: {{this.data.pix2}} <br />
+      {{this.data.pix2Name}}
+    </p>
+  </div>
+  <div class="body">
+    <div *ngFor="let info of this.data.data">
+      <div class="text-center">Atração: {{info.description}}</div>
+      <div class="text-center mb-1">
+        Valor: {{formatterCurrency(info.value)}}
+      </div>
+      <ion-img [src]="info.image"></ion-img>
+    </div>
+  </div>
 </ion-content>

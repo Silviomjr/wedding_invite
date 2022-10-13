@@ -107,9 +107,11 @@
   height: 8rem;
   justify-content: center;
   align-content: center;
-
+  gap: 5px;
+  
   ion-img {
     height: 8rem;
+    transform: scale(1.5);
   }
 }
 
@@ -119,4 +121,12 @@
 
 .mb--5 {
   margin-bottom: -5px !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
 }
