@@ -1,115 +1,116 @@
 {
   "data": [
     {
-      "description": "Café em paris.",
+      "description": "Cafezin em paris. (E teve boatos que a gente estava na pior…)",
       "place": "paris",
-      "value": 200,
+      "value": 100,
       "image": "../../../assets/images/paris-cafe.jpg"
     },
     {
-      "description": "Visita ao museu do Louvre.",
+      "description": "Visita ao museu do Louvre. (Se isso é estar na pior, imagina o que é estar bem!)",
       "place": "paris",
-      "value": 170,
+      "value": 85,
       "image": "../../../assets/images/paris-louvre.jpg"
     },
     {
-      "description": "City Tour em Paris - 1 dia.",
+      "description": "City Tour em Paris - 1 dia ( Pq A gente nasceu pra brilhar!)",
       "place": "paris",
       "value": 210,
       "image": "../../../assets/images/paris-citytour.jpg"
     },
     {
-      "description": "Almoço no Sena - Bateau-Mouche.",
+      "description": "Almoço no Sena (Ai que babado!) - Bateau-Mouche.",
       "place": "paris",
       "value": 375,
       "image": "../../../assets/images/paris-bateaumouche.jpg"
     },
     {
-      "description": "Visita ao museu do Van Gogh.",
+      "description": "Visita ao museu do Van Gogh. ('TamoS' passados! Chocados!)",
       "place": "amsterdã",
-      "value": 200,
+      "value": 100,
       "image": "../../../assets/images/amsterda-vangogh.jpg"
     },
     {
-      "description": "Heineken Experience.",
+      "description": "Heineken Experience. (Dinheiro não compra felicidade, mas compra cerveja que é a mesma coisa!)",
       "place": "amsterdã",
       "value": 210,
       "image": "../../../assets/images/amsterda-heineken.jpg"
     },
     {
-      "description": "City Card Amsterda.",
+      "description": "City Card Amsterda. (Fortalece uns rolê diferenciado aí, parça!)",
       "place": "amsterdã",
       "value": 325,
       "image": "../../../assets/images/amsterda-citycard.jpg"
     },
     {
-      "description": "Visita ao Atomium.",
+      "description": "Visita ao Atomium. (Bom dia classe trabalhadora, CLT, tudo bem?!)",
       "place": "bruxelas",
       "value": 170,
       "image": "../../../assets/images/bruxelas-atomium.jpg"
     },
     {
-      "description": "Passeio em Bruges.",
+      "description": "Passeio em Bruges. (Se fomos pobres, não lembramos!)",
       "place": "bruxelas",
       "value": 480,
       "image": "../../../assets/images/bruxelas-bruges.jpg"
     },
     {
-      "description": "Delirium Bar.",
+      "description": "Delirium Bar. (Com bons drinks!)",
       "place": "bruxelas",
       "value": 250,
       "image": "../../../assets/images/bruxelas-delirium.jpg"
     },
     {
-      "description": "Mini Europe.",
+      "description": "Mini Europa. (Somos RICOS!)",
       "place": "bruxelas",
       "value": 173,
       "image": "../../../assets/images/bruxelas-minieurope.jpg"
     },
     {
-      "description": "Pargamonmuseum. Das Panorama.",
+      "description": "Pargamon museum. Das Panorama. (Olhaaaaaa elesssss!)",
       "place": "berlim",
       "value": 190,
       "image": "../../../assets/images/berlim-pargamonmuseum.jpg"
     },
     {
-      "description": "Tarde em Potsdamer Platz.",
+      "description": "Tarde em Potsdamer Platz. (Somos 'chiques' benhê!)",
       "place": "berlim",
       "value": 350,
       "image": "../../../assets/images/berlim-postdamer.jpg"
     },
     {
-      "description": "Passeio em Dresden.",
+      "description": "Passeio em Dresden. (Tá passada!?)",
       "place": "berlim",
+
       "value": 400,
       "image": "../../../assets/images/berlim-dresden.jpg"
     },
     {
-      "description": "Colosseum, Roman Forum e Palatine.",
+      "description": "Coliseu, Fórum Romano e Monte Palatino. (Buonasera Natasha!)",
       "place": "roma",
       "value": 180,
       "image": "../../../assets/images/roma-coliseu.jpg"
     },
     {
-      "description": "Visita guiada Vaticano e Capela Sistina.",
+      "description": "Visita guiada Vaticano e Capela Sistina. (Holy water! A nossa água benta é estrangeira!)",
       "place": "roma",
       "value": 600,
       "image": "../../../assets/images/roma-capelasistina.jpg"
     },
     {
-      "description": "Passeio pelo centro histórico de Roma - Fontana di Trevi e Pantheon.",
+      "description": "Passeio pelo centro histórico de Roma - Fontana di Trevi e Pantheon. (Buonasera Katucha!)",
       "place": "roma",
       "value": 400,
       "image": "../../../assets/images/roma-fontanaditrevi.jpg"
     },
     {
-      "description": "Castel Sant'Angelo.",
+      "description": "Castel Sant'Angelo. (Olá pobres trabalhadores. Segunda-feira hoje, né? Nem percebemos!)",
       "place": "roma",
       "value": 400,
       "image": "../../../assets/images/roma-castelsantangelo.jpg"
     },
     {
-      "description": "Visita guiada pela Galeria Borghese.",
+      "description": "Visita guiada pela Galeria Borghese. (Bom dia Brasil, boa tarde Itália!)",
       "place": "roma",
       "value": 485,
       "image": "../../../assets/images/roma-galeriaborghese.jpg"
