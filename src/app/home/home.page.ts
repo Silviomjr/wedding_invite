@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 import { Router } from '@angular/router';
 
 @Component({
@@ -8,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class HomePage implements OnInit {
   url: string;
-  constructor(private router: Router) {}
+  constructor(private router: Router, public sanitizer: DomSanitizer) {}
 
   ngOnInit() {
     this.url = this.whatsAppUrl();
